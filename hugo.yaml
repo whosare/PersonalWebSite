@@ -1,4 +1,4 @@
-baseURL: http://localhost:1313/
+baseURL: hozair.dev
 languageCode: en-us
 title: My New Hugo Site
 theme: "hugo-profile"
@@ -241,6 +241,7 @@ params:
   #       content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
   # Education
+
   education:
     enable: true
     # title: "Custom Name"
@@ -355,6 +356,8 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/HugoProfileV2
 
+  button:
+  
   #Contact
   contact:
     enable: true
