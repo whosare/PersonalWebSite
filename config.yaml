@@ -1,6 +1,6 @@
 baseURL: "https://hozair.dev/"
 languageCode: en-us
-title: My New Hugo Site
+title: About Me
 theme: "hugo-profile"
 
 outputs:
@@ -144,16 +144,16 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
+      url: "/Hozair_Ibr_Resume.pdf"
+      download: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/whosare
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
 
   # About
   about:
@@ -311,50 +311,50 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Language AI App
+        content: A language app capable of speech. The AI grades you on your vocal skills and ability to speak.
+        image: /images/projects/LangICON.jpg
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Link
+          link: https://github.com/whosare/LangAI
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          - "AI"
+          - "NLP"
+        # links:
+        #   - icon: fa fa-envelope
+        #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/hugo-profile
+        #   - icon: fab fa-twitter
+        #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: Receipt Expense Tracker
+        content: Upload your receipt, data is parsed and categorized, and then the data is shown to you, Simple and effortless. 
+        image: /images/projects/finance.png
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: Link
+          link: https://github.com/whosare/Receipt_exp_tracker
         badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+          - "FastAPI"
+          - "OCR"
+          - "AI Categorization"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - title: Diabetes Predictor
+        content: A data science project using prediction algorithm to analyze and assess patient health.
+        image: /images/projects/health.jpg
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Link
+          link: https://github.com/whosare/Receipt_exp_tracker
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - "Forest Classifier"
+          - "Machine Learning"
+          - "Data Analysis"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/HugoProfileV2
 
   button:
   
@@ -372,34 +372,34 @@ params:
     #   messageCaption: "Enter your message here"
     #   messageRows: 5
 
-  footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
-    socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+  # footer:
+  #   recentPosts:
+  #     path: "blogs"
+  #     count: 3
+  #     title: Recent Posts
+  #     enable: true
+  #     disableFeaturedImage: false
+  #   socialNetworks:
+  #     github: https://github.com
+  #     linkedin: https://linkedin.com
+  #     twitter: https://twitter.com
+  #     instagram: https://instagram.com
+  #     facebook: https://facebook.com
 
-  # List pages like blogs and posts
-  listPages:
-    disableFeaturedImage: false
+  # # List pages like blogs and posts
+  # listPages:
+  #   disableFeaturedImage: false
 
-  # Single pages like blog and post
-  singlePages:
-    socialShare: true
-    readTime:
-      enable: true
-      content: "min read"
-    scrollprogress:
-      enable: true
-    tags:
-      openInNewTab: true
+  # # Single pages like blog and post
+  # singlePages:
+  #   socialShare: true
+  #   readTime:
+  #     enable: true
+  #     content: "min read"
+  #   scrollprogress:
+  #     enable: true
+  #   tags:
+  #     openInNewTab: true
 
   # For translations
   terms:
